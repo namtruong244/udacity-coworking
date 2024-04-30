@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: <DOCKER_IMAGE_URI_FROM_ECR>
+        image: 844951663216.dkr.ecr.us-east-1.amazonaws.com/coworking:6
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -45,9 +45,8 @@ spec:
           initialDelaySeconds: 5
           timeoutSeconds: 5
         envFrom:
-        - configMapRef:
-            name: my-postgresql
-        envFrom:
-        - configMapRef:
-            name: my-postgres-db-password
+          - secretRef:
+              name: my-postgres-db-password
+          - configMapRef:
+              name: my-postgresql
       restartPolicy: Always
