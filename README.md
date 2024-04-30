@@ -67,7 +67,7 @@ Elastic Container Registry history
    List Describe Pods DB
    ![List Describe Pods DB](Project%20Screenshots/DescribePodsPostgresql.png)
    List Describe Pods API
-   ![List Describe Pods API](Project%20screenshots/DescribePodsCoworking.png)
+   ![List Describe Pods API](Project%20Screenshots/DescribePodsCoworking.png)
    
 4. List Deployments
    ```bash
