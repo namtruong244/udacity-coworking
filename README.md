@@ -55,7 +55,7 @@ Elastic Container Registry history
    List Describe Services Postgres DB
    ![List Describe Services Postgres DB](Project%20Screenshots/DescribeSvcPostgresqlService.png)
    List Describe Services Coworking API
-   ![List Describe Services Project3 API](Project%20screenshots/DescribeSvcCoworking.png)
+   ![List Describe Services Project3 API](Project%20Screenshots/DescribeSvcCoworking.png)
 
 3. List Pods
    ```bash
